@@ -8,7 +8,7 @@ Why a separate vesrion? As you can see [adding -std=c++14 to Makefile](https://g
 
 Test results:
 
-[<img alt="Build Status" src="https://travis-ci.org/rsp/travis-hello-modern-cpp.svg?branch=master" height="40">][travis-url]
+[<img alt="Build Status" src="https://travis-ci.org/amamory/travis-hello-modern-cpp.svg?branch=master" height="40">][travis-url]
 
 Important files:
 

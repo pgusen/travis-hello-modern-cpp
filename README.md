@@ -4,7 +4,7 @@ Simple Travis example for C++ using modern GCC and Clang compilers.
 
 (For a version using default compilers see: [travis-hello-cpp][cpp-url])
 
-Why a separate vesrion? As you can see [adding -std=c++14 to Makefile](https://github.com/rsp/travis-hello-modern-cpp/commit/91ae62f448733b4e43ca3b8fffbd96d7dfc29c5a) has resulted in [breaking the build](https://travis-ci.org/rsp/travis-hello-modern-cpp/builds/171760012) for both GCC and Clang because Travis uses old versions of compilers by default. The [changes to .travis.yml](https://github.com/rsp/travis-hello-modern-cpp/commit/e1150984643c0ba2e53b9e4c0ce8939b528f850e) resulted in [fixing it](https://travis-ci.org/rsp/travis-hello-modern-cpp/builds/171760541). The downside is that the tests now take longer. If you don't need modern C++ then the example in [travis-hello-cpp][cpp-url] is faster.
+Why a separate vesrion? As you can see [adding -std=c++14 to Makefile](https://github.com/amamory/travis-hello-modern-cpp/commit/91ae62f448733b4e43ca3b8fffbd96d7dfc29c5a) has resulted in [breaking the build](https://travis-ci.org/amamory/travis-hello-modern-cpp/builds/171760012) for both GCC and Clang because Travis uses old versions of compilers by default. The [changes to .travis.yml](https://github.com/amamory/travis-hello-modern-cpp/commit/e1150984643c0ba2e53b9e4c0ce8939b528f850e) resulted in [fixing it](https://travis-ci.org/amamory/travis-hello-modern-cpp/builds/171760541). The downside is that the tests now take longer. If you don't need modern C++ then the example in [travis-hello-cpp][cpp-url] is faster.
 
 Test results:
 
@@ -19,7 +19,7 @@ Important files:
 
 For more info and examples for other languages see:
 
-* https://github.com/rsp/travis-hello
+* https://github.com/amamory/travis-hello
 
 Issues
 ------
@@ -42,33 +42,33 @@ License
 -------
 MIT License (Expat). See [LICENSE.md](LICENSE.md) for details.
 
-[main-url]: https://github.com/rsp/travis-hello
-[cpp-url]: https://github.com/rsp/travis-hello-cpp
-[github-url]: https://github.com/rsp/travis-hello-modern-cpp
-[readme-url]: https://github.com/rsp/travis-hello-modern-cpp#readme
-[issues-main-url]: https://github.com/rsp/travis-hello/issues
-[issues-ver-url]: https://github.com/rsp/travis-hello-modern-cpp/issues
-[stars-url]: https://github.com/rsp/travis-hello-modern-cpp/stargazers
-[watchers-url]: https://github.com/rsp/travis-hello-modern-cpp/watchers
-[forks-url]: https://github.com/rsp/travis-hello-modern-cpp/network/members
-[stars-img]: https://img.shields.io/github/stars/rsp/travis-hello-modern-cpp.svg?style=social&amp;label=Stars
-[forks-img]: https://img.shields.io/github/forks/rsp/travis-hello-modern-cpp.svg?style=social&amp;label=Forks
-[watchers-img]: https://img.shields.io/github/watchers/rsp/travis-hello-modern-cpp.svg?style=social&amp;label=Watchers
-[tweet-img]: https://img.shields.io/twitter/url/https/github.com/rsp/travis-hello-modern-cpp.svg?style=social
-[tweet-url]: https://twitter.com/intent/tweet?text=%23Travis+example+for+modern+C%2b%2b+with+new+GCC+and+CLang+by+@pocztarski:&url=https%3A%2F%2Fgithub.com%2Frsp%2Ftravis-hello-modern-cpp
-[license-url]: https://github.com/rsp/travis-hello-modern-cpp/blob/master/LICENSE.md
-[license-img]: https://img.shields.io/github/license/rsp/travis-hello-modern-cpp.svg
-[travis-url]: https://travis-ci.org/rsp/travis-hello-modern-cpp
-[travis-img]: https://travis-ci.org/rsp/travis-hello-modern-cpp.svg?branch=master
-[snyk-url]: https://snyk.io/test/github/rsp/travis-hello-modern-cpp
-[snyk-img]: https://snyk.io/test/github/rsp/travis-hello-modern-cpp/badge.svg
-[github-follow-url]: https://github.com/rsp
-[github-follow-img]: https://img.shields.io/github/followers/rsp.svg?style=social&label=Follow
+[main-url]: https://github.com/amamory/travis-hello
+[cpp-url]: https://github.com/amamory/travis-hello-cpp
+[github-url]: https://github.com/amamory/travis-hello-modern-cpp
+[readme-url]: https://github.com/amamory/travis-hello-modern-cpp#readme
+[issues-main-url]: https://github.com/amamory/travis-hello/issues
+[issues-ver-url]: https://github.com/amamory/travis-hello-modern-cpp/issues
+[stars-url]: https://github.com/amamory/travis-hello-modern-cpp/stargazers
+[watchers-url]: https://github.com/amamory/travis-hello-modern-cpp/watchers
+[forks-url]: https://github.com/amamory/travis-hello-modern-cpp/network/members
+[stars-img]: https://img.shields.io/github/stars/amamory/travis-hello-modern-cpp.svg?style=social&amp;label=Stars
+[forks-img]: https://img.shields.io/github/forks/amamory/travis-hello-modern-cpp.svg?style=social&amp;label=Forks
+[watchers-img]: https://img.shields.io/github/watchers/amamory/travis-hello-modern-cpp.svg?style=social&amp;label=Watchers
+[tweet-img]: https://img.shields.io/twitter/url/https/github.com/amamory/travis-hello-modern-cpp.svg?style=social
+[tweet-url]: https://twitter.com/intent/tweet?text=%23Travis+example+for+modern+C%2b%2b+with+new+GCC+and+CLang+by+@pocztarski:&url=https%3A%2F%2Fgithub.com%2Famamory%2Ftravis-hello-modern-cpp
+[license-url]: https://github.com/amamory/travis-hello-modern-cpp/blob/master/LICENSE.md
+[license-img]: https://img.shields.io/github/license/amamory/travis-hello-modern-cpp.svg
+[travis-url]: https://travis-ci.org/amamory/travis-hello-modern-cpp
+[travis-img]: https://travis-ci.org/amamory/travis-hello-modern-cpp.svg?branch=master
+[snyk-url]: https://snyk.io/test/github/amamory/travis-hello-modern-cpp
+[snyk-img]: https://snyk.io/test/github/amamory/travis-hello-modern-cpp/badge.svg
+[github-follow-url]: https://github.com/amamory
+[github-follow-img]: https://img.shields.io/github/followers/amamory.svg?style=social&label=Follow
 [twitter-follow-url]: https://twitter.com/intent/follow?screen_name=pocztarski
 [twitter-follow-img]: https://img.shields.io/twitter/follow/pocztarski.svg?style=social&label=Follow
-[stackoverflow-url]: https://stackoverflow.com/users/613198/rsp
-[stackexchange-url]: https://stackexchange.com/users/303952/rsp
+[stackoverflow-url]: https://stackoverflow.com/users/613198/amamory
+[stackexchange-url]: https://stackexchange.com/users/303952/amamory
 [stackexchange-img]: https://stackexchange.com/users/flair/303952.png
-[gitlab-url]: https://gitlab.com/rsp/travis-hello-modern-cpp
-[gitlabci-img]: https://gitlab.com/rsp/travis-hello-modern-cpp/badges/master/build.svg
-[gitlabci-url]: https://gitlab.com/rsp/travis-hello-modern-cpp/builds
+[gitlab-url]: https://gitlab.com/amamory/travis-hello-modern-cpp
+[gitlabci-img]: https://gitlab.com/amamory/travis-hello-modern-cpp/badges/master/build.svg
+[gitlabci-url]: https://gitlab.com/amamory/travis-hello-modern-cpp/builds

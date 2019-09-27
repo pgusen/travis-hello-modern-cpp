@@ -9,7 +9,7 @@ ALL = hello
 all: $(ALL)
 
 hello: hello.cpp Makefile
-	$(CXX) $(CXXFLAGS) -o $@ $@.cpp
+	$(CXX) $(CXXFLAGS) -pg -o $@ $@.cpp
 
 clean:
 	$(RM) $(ALL) *.o

@@ -13,11 +13,14 @@ addons:
     packages:
     - g++-6
     - valgrind
-    - clang-3.8
+before_install:
+  - wget --no-check-certificate 'https://drive.google.com/open?id=1ntx6Mpor-GWRl3CSiAQ47H8RQOKYeoWJ' -O riscv-gcc.tar.gz
+  - tar xvzf riscv-gcc.tar.gz --strip-components 2
+  - export PATH=~/riscv-elf/gcc-8.1.0/bin:$PATH
 install:
 - "[ $CXX = g++ ] && export CXX=g++-6 || true"
-- "[ $CXX = clang++ ] && export CXX=clang++-3.8 || true"
 script:
+  - riscv32-unknown-elf-gcc
   - make
   - make test
   - valgrind ./hello

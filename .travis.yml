@@ -18,7 +18,7 @@ before_install:
   - chmod +x download-gdrive.sh
   - ./download-gdrive.sh
   - tar xvzf riscv-gcc.tar.gz --strip-components 2
-  - export PATH=~/riscv-elf/gcc-8.1.0/bin:$PATH
+  - export PATH=$PWD/riscv-elf/gcc-8.1.0/bin:$PATH
 install:
 - "[ $CXX = g++ ] && export CXX=g++-6 || true"
 script:

@@ -14,7 +14,9 @@ addons:
     - g++-6
     - valgrind
 before_install:
-  - wget --no-check-certificate 'https://drive.google.com/open?id=1ntx6Mpor-GWRl3CSiAQ47H8RQOKYeoWJ' -O riscv-gcc.tar.gz
+  # download riscv32 compiler
+  - chmod +x download-gdrive.sh
+  - ./download-gdrive.sh
   - tar xvzf riscv-gcc.tar.gz --strip-components 2
   - export PATH=~/riscv-elf/gcc-8.1.0/bin:$PATH
 install:

@@ -14,7 +14,7 @@ int valid_f(ch) char ch; {
 		return (0); 
 }
 
-void main ()
+int main ()
 { 
 	char  achar; 
 	int   length, valid_id;
@@ -32,8 +32,12 @@ void main ()
 		length++; 
 		achar = fgetc (stdin);
 	} 
-	if (valid_id && (length >= 1) && (length < 6) ) 
+	if (valid_id && (length >= 1) && (length < 6) ) {
 		printf ("Valido\n"); 
-	else 
+        return 0;
+    }else {
 		printf ("Invalido\n");	
+        return 1;
+    }
+
 }

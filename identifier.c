@@ -1,3 +1,5 @@
+/*Identifier code - SOftware Test */
+
 #include <stdio.h>
 
 int valid_s (char ch){
